@@ -24,6 +24,6 @@ before_script:
   - composer require --dev phpstan/phpstan-shim
 
 script:
-#  - composer cs-fix
+  - composer cs-fix
 #  - composer test
 #  - php bin/swoft dinfo:env
